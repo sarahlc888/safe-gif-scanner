@@ -24,16 +24,4 @@ These are the main milestones for the project! As development continues, I'll ad
 
 This library is a lightweight library for analyzing GIFs in real-time for fast flashes that may trigger a seizure for people with photosensitive epilepsy. I envision this as a component of larger projects, and I will be creating a different library for grabbing Twitter GIFs in the future, to create a complete product. 
 
-* **If your README is very long, move content to other documents.**
-
-  If your README is more than ten or twelve screens long, move stuff into
-  separate documents. Keep your README file short, or readers may become
-  overwhelmed. A comprehensive README is a bad README.
-
-  Topics not covered by this checklist are likely candidates for becoming
-  separate documents. For example, version histories can be moved to a
-  `CHANGELOG` or `RELEASES` file and replaced with a link to the new file.
-
-* **Set a reminder to review your README and this checklist in a few weeks**.
-
-* **Tell [ddbeck](https://github.com/ddbeck/) that you used this checklist.** You can [tweet at him](https://twitter.com/ddbeck/) or open an issue on [ddbeck/readme-checklist](https://github.com/ddbeck/readme-checklist/issues).
+Credits to [this amazing README checklist](https://github.com/ddbeck/readme-checklist) for the structure of this document. 
