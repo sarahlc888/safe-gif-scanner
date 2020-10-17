@@ -6,6 +6,8 @@
 * Static or moving **patterns** of discernable light and dark stripes have the same effect as flashing lights because of the alternation of dark and bright areas. The danger depends on how many and how contrasted the stripes are in the visual field. No more than five pairs of stripes if they are moving within the field of vision and no more than eight pairs if they are static shold be on the screen.  
 * Certain **colors** are critical; in particular, the so-called saturated “deep” red. Within the visual spectrum, this color is the one with the longest wavelength and it can be easily eliminated by wearing appropriate optical filters (blue lenses). 
 
+Because there's two main issues here(saturated red transitions and flashes) I'll create two algorithms. The saturated red transition will use [relative luminance](https://www.w3.org/WAI/GL/wiki/Relative_luminance) to measure transitions. The luminance flash algorithm will detect the difference from the previous frame, as done in [this paper](https://www.semanticscholar.org/paper/Automatic-detection-of-flashing-video-content-Carreira-Rodrigues/341e2139f4239882e12d8ee01f4d56532b4cd8ea#paper-header).
+
 References:
 
 1. [Guide to Accessible Web Design & Development](https://www.section508.gov/content/guide-accessible-web-design-development#flashing)
