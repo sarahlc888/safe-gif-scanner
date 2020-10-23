@@ -8,6 +8,8 @@
 
 Because there's two main issues here(saturated red transitions and flashes) I'll create two algorithms. The saturated red transition will use [relative luminance](https://www.w3.org/WAI/GL/wiki/Relative_luminance) to measure transitions. The luminance flash algorithm will detect the difference from the previous frame, as done in [this paper](https://www.semanticscholar.org/paper/Automatic-detection-of-flashing-video-content-Carreira-Rodrigues/341e2139f4239882e12d8ee01f4d56532b4cd8ea#paper-header).
 
+How can I actually test this? There's no database of obviously unsafe GIFs for ethics reasons, so I might have to corrupt videos myself. I'll create an algorithm to corrupt videos by adding flashing or deep red to some of the frames randomly. Since the risk of seizure is not binary, but probabilistic, I'll partially use random chance. 
+
 References:
 
 1. [Guide to Accessible Web Design & Development](https://www.section508.gov/content/guide-accessible-web-design-development#flashing)
